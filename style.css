@@ -1,0 +1,95 @@
+/*
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+
+
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #939191;
+  background-color: hsl(212, 45%, 89%);
+}
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2a2828;
+}
+
+p {
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+  height: 100vh;
+}
+
+.QR-card {
+  text-align: center;
+  width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.QR-card img {
+  border-radius: 15px;
+}
+
+.QR-card__content {
+  padding: 1rem;
+}
+
+.QR-card__content h3 {
+  padding-bottom: 1rem;
+}
+
+.footer {
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: rgb(42, 41, 41);
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover {
+  color: #bfe0ed;
+}
